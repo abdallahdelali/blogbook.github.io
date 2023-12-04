@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>buy</title>
+        <link rel="stylesheet" href="buy.css">
+        <link
+        href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap"
+        rel="stylesheet"
+      />
+      <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      />
+      <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.4.2/css/all.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1>Checkout Form</h1>
+            </header> 
+            <section>
+            <fieldset>
+            <div class="row">
+                <div class="col-75">
+                  <div class="container">
+                    <form action="submit" method="post">
+                    
+                      <div class="row">
+                        <div class="col-50">
+                          <h3>Billing Address</h3>
+                          <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                          <input type="text" id="fname" name="firstname" placeholder="full name" required>
+                          <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                          <input type="email" id="email" name="email" placeholder="email" required>
+                          <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                          <input type="text" id="adr" name="address" placeholder="address" required>
+                          <label for="city"><i class="fa fa-institution"></i> City</label>
+                          <input type="text" id="city" name="city" placeholder="Mostaganem" required>
+              
+                          <div class="row">
+                            <div class="col-50">
+                              <label for="state">State</label>
+                              <input type="text" id="state" name="state" placeholder="AL" required>
+                            </div>
+                            <div class="col-50">
+                              <label for="zip">Zip</label>
+                              <input type="text" id="zip" name="zip" placeholder="27000" required>
+                            </div>
+                          </div>
+                        </div>
+              
+                        <div class="col-50">
+                          <h3>Payment</h3>
+                          <label for="fname">Accepted Cards</label>
+                          <div class="icon-container">
+                            <i class="fa fa-cc-visa" style="color:#fdbb0a;"></i>
+                            <i class="fa fa-cc-amex" style="color:#169BD7;"></i>
+                            <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                            <i class="fa fa-cc-discover" style="color:orange;"></i>
+                          </div>
+                          <label for="cname">Name on Card</label>
+                          <input type="text" id="cname" name="cardname" placeholder="delali abdallah" required>
+                          <label for="ccnum">Credit card number</label>
+                          <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444" required>
+                          <label for="expmonth">Exp Month</label>
+                          <input type="text" id="expmonth" name="expmonth" placeholder="September" required>
+                          <div class="row">
+                            <div class="col-50">
+                              <label for="expyear">Exp Year</label>
+                              <input type="text" id="expyear" name="expyear" placeholder="2023" required>
+                            </div>
+                            <div class="col-50">
+                              <label for="cvv">CVV</label>
+                              <input type="text" id="cvv" name="cvv" placeholder="352" required>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                      <label>
+                        <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+                      </label>
+                      <input type="submit" value="Continue to checkout" class="btn">
+                    </form>
+                </fieldset>
+                  </div>
+                </div>
+                <fieldset>
+                <div class="col-25">
+                    <div class="container">
+                      <h4>Cart <span class="price" style="color:white"><i class="fa fa-shopping-cart"></i> <b>1</b></span></h4>
+                      <p><a href="#">Product</a> <span class="price">$30</span></p>
+
+                      <hr>
+                      <p>Total <span class="price" style="color:white"><b>$30</b></span></p>
+                    </div>
+                  </div>
+                </div>
+            </fieldset>
+        </section> 
+        </main>
+        <footer>
+          <address>
+            <a class="contact"  href="contact.html" target="_blank">Contact Us</a><br />
+            <div class="social-icons">
+              <a href="https://www.facebook.com/freecodecamp/" target="_blank">
+                <i class="fab fa-facebook-f facebook"></i>
+              </a>
+              <a href="https://twitter.com/freecodecamp/" target="_blank">
+                <i class="fab fa-x-twitter x"></i>
+              </a>
+              <a href="https://instagram.com/freecodecamp" target="_blank">
+                <i class="fab fa-instagram insta"></i>
+              </a>
+              <a href="https://www.linkedin.com/school/free-code-camp/" target="_blank">
+                <i class="fab fa-linkedin-in linkdin"></i>
+              </a>
+              <a href="https://www.youtube.com/freecodecamp" target="_blank">
+                <i class="fab fa-youtube youtube"></i>
+              </a>
+              <a href="https://www.youtube.com/freecodecamp" target="_blank">
+                <i class="fab fa-tiktok tiktok"></i>
+              </a>
+            </div>
+             <p><i>Copyright © 2023</i></p>
+          </address>
+        </footer>
+    </body>
+</html>
